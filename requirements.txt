@@ -1,0 +1,16 @@
+
+Flask
+
+python-dotenv
+llama-index 
+llama-index-core 
+llama-parse 
+llama-index-indices-managed-vectara
+
+%pip install llama-index-embeddings-openai
+%pip install llama-index-question-gen-openai
+%pip install llama-index-postprocessor-flag-embedding-reranker
+%pip install git+https://github.com/FlagOpen/FlagEmbedding.git
+
+#langchain-community
+#-e .
