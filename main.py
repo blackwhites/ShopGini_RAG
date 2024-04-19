@@ -15,16 +15,16 @@ app = Flask(__name__)
 vectara_customer_id = "1462565482"
 vectara_corpus_id1 = "4" #Corpus for processed products from LlamaIndex
 vectara_corpus_id2 = "3" #Corpus for original products pdf
-vectara_api_key = "zut_Vyz6aoLQDc3em061SmzHAGBIcQry2_FdgqXs5A"
+vectara_api_key = "YOUR-API-KEY"
 
 
 nest_asyncio.apply()
 
 # API access to llama-cloud
-os.environ["LLAMA_CLOUD_API_KEY"] = "llx-012ehqGlaumwNHfTCXma3lFFifYd4K6qdaO1aK800cIVVAAf"
+os.environ["LLAMA_CLOUD_API_KEY"] = "YOUR-API-KEY"
 
 # Using OpenAI API for embeddings/llms
-os.environ["OPENAI_API_KEY"] = "sk-proj-wL2UU3nfX6O3RDfmlEh8T3BlbkFJgoix4eOKkeJfhgdZRAsO"
+os.environ["OPENAI_API_KEY"] = "YOUR-API-KEY"
 
 embed_model = OpenAIEmbedding(model="text-embedding-3-small")
 llm = OpenAI(model="gpt-3.5-turbo-0125")
